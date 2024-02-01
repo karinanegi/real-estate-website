@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    /* background-color: aliceblue; */
+} 
+#home{
+    background-image: url("./houseimages/mainBackground.png");  
+   filter:brightness(50%);
+    height: 100vh ;
+} 
+#multipages{
+    background-color: rgb(197, 199, 202); 
+    height: 600vh;
+} 
+#navbar{
+     background:rgba(0, 0,0,0.1); 
+     display: flex;
+     justify-content: space-around; 
+     align-items: center;
+} 
+ul{ 
+    /* background:rgba(0, 0,0,0.1);  */ 
+    display: flex; 
+} 
+ul>li{  color: aliceblue;
+    background: transparent; 
+    /* background:rgba(0, 0,0,0.1);  */
+    padding: 15px 25px; 
+    list-style: none;
+} 
+hr{
+    height: 2px;
+     width: 80%;
+      background-color: aliceblue; 
+      position: relative; 
+      left: 105px; 
+} 
+#navbar>img{
+    position: relative;
+    left: 10px; 
+    height: 68px;
+    width: 105px;
+}
+/* ............................................................... */
+#header-section{
+     /* border: 2px solid rgb(94, 4, 179); */
+    display: flex; 
+    flex-direction: column; 
+    position: relative;
+top: 100px; 
+left: 120px; 
+gap: 30px;
+} 
+.btn{ display: inline;
+    width:140px; 
+    height: 38px; 
+    background-color: rgb(94, 4, 179); 
+    color: aliceblue;
+    border: 2px solid rgb(94, 4, 179);
+     border-radius: 16px;
+} 
+#header-section>h1{
+font-size: 90px; color: white;
+} 
+#header-section>h2{
+    color: aliceblue;
+}  
+.heading-div{ position: relative; top: 100px;
+    display: flex; justify-content: center; align-items: center; text-align: center;
+}
+#heading{  
+    /* border: 2px solid rgb(94, 4, 179);   */
+    font-size: 80px;
+} 
+/* ..........................................logo............................................
+ */ 
+ #logo>img{
+    height: 25px;
+    width: 150px;
+
+ }
+ #logo{
+    display: flex;
+    height: 75px; 
+    width: 89%; gap: 60px;
+     background-color: rgb(235, 234, 234);
+      justify-content: space-around; 
+      align-items: center; 
+      border-radius: 8px; 
+      position: relative; 
+      bottom: 35px; 
+      left: 90px;
+ } 
+ /* ................................................................................pictures
+ */
+#firstthree ,#secoundthree , #lastthree{ 
+    display: flex; 
+    width: auto; 
+    position: relative; 
+    top: 150px;
+     left:60px; 
+     gap: 20px;
+} 
+.img >img{
+    height: 425px;
+    width: 425px;   border-radius: 12px;
+    } 
+#Mixtownia{
+    display: flex; 
+    /* border: 2px solid black; */
+     background-color: aliceblue; 
+     gap: 120px; 
+     align-items: center; 
+     justify-content: center; 
+     height: 90px;
+     width: 350px;
+      border-radius: 10px; 
+      position: relative;
+       bottom: 50px; left: 40px;
+} 
+.buttons{
+    background-color: rgb(94, 4, 179);  
+    width:100px; 
+    height: 40px;  
+    border-radius: 15px; 
+    color: aliceblue;
+
+} 
+#secound ,#fifth,#eighth{
+    position: relative; 
+    top: 20px;
+} 
+#third, #sixth,#ninth{
+    position: relative; 
+    top: 40px;  
+} 
+/* ........................................................................... */
+#secound-section>div>div>#featuresImage1{
+    height: 320px; 
+    width: 340px;  border-radius: 35px;
+} 
+#first-featuresimages, #secound-featureimages{
+    display: flex; justify-content: center;
+ align-items: center;} 
+ #secound-section , #third-section{
+    height: 400px; 
+    width: 98%; 
+    /* border: 2px solid black;  */
+    position: relative; 
+    top: 250px; 
+    /* justify-content: center; align-items: center; */
+ } 
+  
+ #featuresImage1 { 
+    position: relative; 
+    bottom: 405px; 
+    left: 105px;
+ } 
+ #featureImageBg1{
+    height: 500px; 
+    width: 530px;  
+    position: relative; 
+    top: 45px; 
+ } 
+ #Modern{
+ display: flex; 
+ flex-direction: column;
+ justify-content: center;
+ gap: 35px;
+
+ /* border: 2px solid black;   */
+ position: relative; 
+ bottom: 100px; 
+ right: 210px;
+ } 
+ #Modern>h1{
+    font-size: 70px;
+ } 
+ #featuresImage2{
+    position: relative;  
+    bottom: 350px; 
+    left: 160px; 
+    height: 350px; 
+    width: 400px;  
+    border-radius: 35px;
+ } 
+ #featureImageBg2{ 
+    height: 500px;  
+    display: flex;
+    width: 690px; 
+    position: relative; 
+    top: 120px;
+ } 
+ #two-house-images{
+    position: relative;    
+    left: 145px;  
+    bottom: 50px;
+    /* border: 2px solid black;  */
+ 
+ }  
+ #Unique{
+    /* border: 2px solid black;    */
+    position: relative;  
+    bottom: 100px; 
+    display: flex;  
+    flex-direction: column;  
+    gap: 40px; 
+
+
+ }
+ #Unique>h1{
+    font-size:  70px; 
+    /* padding: 20px 40px; */
+ } 
+ #fourth-section{
+    height: 500px;
+    width:85%; 
+    background-color: rgb(94, 4, 179);  
+    border-radius: 35px;
+    color: aliceblue;
+     position: relative; 
+     display: flex; 
+     flex-direction: column; 
+     gap: 20px;
+     top: 500px;
+     /* border: 2px solid black;  */
+     margin: auto;  
+     justify-content: center; 
+     align-items: center; 
+      
+
+ } 
+  
+ #fourth-section>h1{
+    font-size: 80px;
+ } 
+ #fourth-section>p{
+    font-size: 20px; text-align: center;
+ } 
+ .fourth-section-button{
+    background-color: aliceblue; 
+    color: blueviolet; 
+    display: inline;
+    width:140px; 
+    height: 45px; 
+     border-radius: 25px;
+ } 
+ #fourth-section-img-button{
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+ } 
+ #fourth-section-img-button>div{
+    /* border: 2px solid white; */
+     width: 500px;
+      border-radius: 30px;  
+      height: 45px;
+      background-color: rgb(48, 26, 72) ; 
+      color: rgb(20, 6, 36)  ; 
+ } 
+ #fourth-section-img-button>div>img , #fourth-section-img-button>div>span {  
+    position: relative;
+     left: 25px; 
+     top: 10px;
+ } 
+ /* ............................................................... */
+ #last-section{
+    display: flex; 
+    position: relative; 
+    top: 600px; gap: 150px;
+    /* border: 2px solid black;  */
+      height: 300px; 
+      
+    background-color: rgb(197, 199, 202)
+ }  
+ #last-section-images{
+    display: flex;  
+    /* border: 2px solid rgb(244, 43, 43);  */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: left;  
+    gap: 30px;
+
+ }  
+ #last-section-images>p{
+    font-size: 15px;
+ } 
+ #last-section-images>div>img{
+    /* display: flex;  */ 
+    padding-right: 10px;
+    gap: 10px; 
+    flex-direction: row;
+ }
+
+ .footer-links{
+ display: flex; 
+ justify-content: space-evenly; 
+ align-items: center;
+  gap: 200px; 
+  /* border: 2px solid black;  */
+ } 
+ .footer-links-content>ul{
+    display: flex; flex-direction: column;
+ } 
+ .footer-links-content>ul>li>a{
+    list-style: none;
+     color: black; 
+     font-size: 20px; 
+     text-decoration: none;
+ } 
+ 
+ .footer-links-content>ul>li>a>b{
+    font-size: 25px;
+ }
